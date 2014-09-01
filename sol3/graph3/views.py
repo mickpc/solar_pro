@@ -9,7 +9,7 @@ from django.http import HttpResponse
 from django.template import RequestContext, loader
  
 
-def graph(request):
+def graph(request):#comment
     x = [1,2,3,4,5,6]
     y = [3,5,6,4,4,4]
     plot(x,y, linewidth=2)
