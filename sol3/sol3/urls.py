@@ -13,4 +13,6 @@ urlpatterns = patterns('',
     
     url(r'^graph/$', views.graph, name="graph"),
 
+    url(r'^$', 'home.views.index'),
 )
+
